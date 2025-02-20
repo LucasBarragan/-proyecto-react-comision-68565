@@ -5,7 +5,6 @@ const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
-            {/* Brand */}
             <a className="navbar-brand" href="#">ATENEA</a>
             
             <button 
@@ -20,7 +19,6 @@ const NavBar = () => {
             </button>
             
             <div className="collapse navbar-collapse" id="navbarNav">
-            {/* Listado de categorías */}
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                 <a className="nav-link" href="#">Categoría 1</a>
@@ -32,7 +30,6 @@ const NavBar = () => {
                 <a className="nav-link" href="#">Categoría 3</a>
                 </li>
             </ul>
-            {/* Componente del carrito */}
             <CartWidget />
             </div>
         </div>
